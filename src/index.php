@@ -7,6 +7,10 @@
     <title>PHP Programs</title>
 </head>
 <body>
-
+<?php
+for ($x = 5; $x <= 15; $x++) {
+    echo "The number is: $x <br>";
+}
+?>
 </body>
 </html>
