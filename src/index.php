@@ -8,9 +8,9 @@
 </head>
 <body>
 <?php
-for ($x = 5; $x <= 15; $x++) {
-    echo "The number is: $x <br>";
-}
+$a = 5;
+$b = 6;
+echo $a + $b;
 ?>
 </body>
 </html>
