@@ -8,9 +8,17 @@
 </head>
 <body>
 <?php
-$a = 5;
-$b = 6;
-echo $a. " " .$b;
+$marks = 50;
+
+if ($marks >= 60) {
+    echo "For Marks " .$marks. "% First Division";
+} else if ($marks >= 45 && $marks <= 59) {
+    echo "For Marks " .$marks. "% Second Division";
+} else if ($marks >= 33 && $marks <= 44) {
+    echo "For Marks " .$marks. "% Third Division";
+} else {
+    echo "Fail";
+}
 ?>
 </body>
 </html>
